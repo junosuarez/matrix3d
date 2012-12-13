@@ -1,0 +1,31 @@
+<!doctype html>
+<style>
+body{
+  background: #eee;
+  font-size: 28px;
+  font-family: times;
+  color: #877;
+}
+input{
+  float: left;
+  width: 50px;
+  font-size: 16px;
+}
+input:nth-child(4n + 1) {
+  clear: left;
+}
+#cat{
+  display: block;
+  z-index: -1;
+}
+.invalid{
+  color: #a33;
+}
+.invalid:after{
+  content: ' - invalid';
+  font-style: italic;
+}
+</style>
+<img src=cat.jpg id=cat>
+<div id=show></div>
+<script src=transform.js></script>
