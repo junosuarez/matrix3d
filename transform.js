@@ -33,7 +33,7 @@ var vals = [
 return vals;
 }
 
-vals = scale(125);
+//vals = scale(125);
 
 var els = [];
 //vals = vals.map(Math.random);
